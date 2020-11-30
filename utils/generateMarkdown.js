@@ -34,10 +34,11 @@ ${questions.description}
 ## Table of Contents  
 * [Installation](#installation)  
 * [Usage](#usage)  
-* [Credits](#credits)  
+* [Contributions](#contributions)  
 * [License](#license)  
 * [Created By](#created)  
 * [Contact](#contact)  
+* [Questions](#questions)  
 * [Tests](#tests)  
 ## Installation  
 ${questions.instructions}  
@@ -49,6 +50,8 @@ ${questions.collabs}
 ${licenseChoice}.  
 ## Created By  
 ${questions.gitName}  
+## Questions  
+
 ## Contact  
 Email: ${questions.email}  
 https://github.com/${questions.gitName}/  
