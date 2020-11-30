@@ -1,17 +1,26 @@
-# Readme Generator  
+# d  
+![badge](https://img.shields.io/static/v1?label=License&message=MIT&color=green)  
 ## Description  
-The Readme Generator App is to allow the quick generation of a readme without worrying about the extra and usually repeatitive aspects of writing a readme while still maintaining a professional look.  
+d  
 ## Table of Contents  
 * [Installation](#installation)  
 * [Usage](#usage)  
 * [Credits](#credits)  
 * [License](#license)  
+* [Created By](#created)  
+* [Contact](#contact)  
 * [Tests](#tests)  
 ## Installation  
-node index.js  
+d  
 ## Usage  
-to create a readme!  
+d  
 ## Contributions  
 false  
 ## License  
-Node.js,GIT  
+This project uses the MIT license.  
+This App uses the MIT License.  
+## Created By  
+d  
+## Contact  
+Email: d  
+https://github.com/d/  

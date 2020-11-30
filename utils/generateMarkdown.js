@@ -1,6 +1,34 @@
 // function to generate markdown for README
 function generateMarkdown(questions) {
+
+  let licenseColor = "";
+  let licenseChoice = questions.license;
+
+  switch (licenseChoice) {
+    case 'Apache':
+      licenseChoice = "This App uses the Apache License";
+      licenseColor = "blue";
+      break;
+    case 'MIT':
+      licenseChoice = "This App uses the MIT License";
+      licenseColor = "green";
+      break;
+    case 'GNU':
+      licenseChoice = "This App uses the GNU License";
+      licenseColor = "red";
+      break;
+  }
+
+  let collabs = questions.collabs;
+  switch (collabs) {
+    case true:
+      collabs = "There are multiple collaborators on this project."
+    case false:
+      collabs = "There is only one contributer to this project."
+  }
+
   return `# ${questions.title}  
+![badge](https://img.shields.io/static/v1?label=License&message=${questions.license}&color=${licenseColor})  
 ## Description  
 ${questions.description}  
 ## Table of Contents  
@@ -8,7 +36,7 @@ ${questions.description}
 * [Usage](#usage)  
 * [Credits](#credits)  
 * [License](#license)  
-* [Created By](#created by)  
+* [Created By](#created)  
 * [Contact](#contact)  
 * [Tests](#tests)  
 ## Installation  
@@ -18,14 +46,13 @@ ${questions.usage}
 ## Contributions  
 ${questions.collabs}  
 ## License  
-${questions.license}  
+${licenseChoice}.  
 ## Created By  
 ${questions.gitName}  
 ## Contact  
-${questions.email}  
-https://github.com/${question.gitName}/  
+Email: ${questions.email}  
+https://github.com/${questions.gitName}/  
 `;
-
 }
 
 module.exports = generateMarkdown;
