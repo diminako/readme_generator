@@ -1,26 +1,28 @@
-# d  
-![badge](https://img.shields.io/static/v1?label=License&message=MIT&color=green)  
+# Readme Generator  
+![badge](https://img.shields.io/static/v1?label=License&message=Apache&color=blue)  
 ## Description  
-d  
+To help create an easy repeatable readme that can be used for multiple applications.  
 ## Table of Contents  
 * [Installation](#installation)  
 * [Usage](#usage)  
-* [Credits](#credits)  
+* [Contributions](#contributions)  
 * [License](#license)  
 * [Created By](#created)  
+* [Questions](#questions)  
 * [Contact](#contact)  
 * [Tests](#tests)  
 ## Installation  
-d  
+npm install  
 ## Usage  
-d  
+Making readmes!  
 ## Contributions  
 false  
 ## License  
-This project uses the MIT license.  
-This App uses the MIT License.  
+This App uses the Apache License.  
 ## Created By  
-d  
+Diminako  
+## Questions  
+If you have any questions or concerns please contact me by using my Contact info below.  
 ## Contact  
-Email: d  
-https://github.com/d/  
+Email: dimi1nakos@gmail.com  
+https://github.com/Diminako/  

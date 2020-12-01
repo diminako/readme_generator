@@ -37,8 +37,8 @@ ${questions.description}
 * [Contributions](#contributions)  
 * [License](#license)  
 * [Created By](#created)  
-* [Contact](#contact)  
 * [Questions](#questions)  
+* [Contact](#contact)  
 * [Tests](#tests)  
 ## Installation  
 ${questions.instructions}  
@@ -51,7 +51,7 @@ ${licenseChoice}.
 ## Created By  
 ${questions.gitName}  
 ## Questions  
-
+If you have any questions or concerns please contact me by using my Contact info below.  
 ## Contact  
 Email: ${questions.email}  
 https://github.com/${questions.gitName}/  
