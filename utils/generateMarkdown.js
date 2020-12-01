@@ -45,7 +45,7 @@ ${questions.instructions}
 ## Usage  
 ${questions.usage}  
 ## Contributions  
-${questions.collabs}  
+${collabs}  
 ## License  
 ${licenseChoice}.  
 ## Created By  

@@ -2,8 +2,6 @@
 ![badge](https://img.shields.io/static/v1?label=License&message=Apache&color=blue)  
 ## Description  
 To help create an easy repeatable readme that can be used for multiple applications.  
-To create this readme generator I used a node module called inquirer.  The inquirer  
-node module uses prompts on the Command line to alter files you are creating.  
 ## Table of Contents  
 * [Installation](#installation)  
 * [Usage](#usage)  
@@ -12,10 +10,15 @@ node module uses prompts on the Command line to alter files you are creating.
 * [Created By](#created)  
 * [Questions](#questions)  
 * [Contact](#contact)  
+* [Tests](#tests)  
 ## Installation  
 npm install  
 ## Usage  
 Making readmes!  
+## Contributions  
+false  
+## License  
+This App uses the Apache License.  
 ## Created By  
 Diminako  
 ## Questions  
